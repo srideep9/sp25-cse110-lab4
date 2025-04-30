@@ -1,0 +1,2 @@
+1. The type of the two numbers wasn't checked, and that they were being considered strings instead. This caused string concatenation instead of addition.
+2. I would type cast the variables to integers to fix the bug.
